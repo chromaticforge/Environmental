@@ -1,22 +1,22 @@
-package com.github.chromaticforge.environmentchanger
+package com.github.chromaticforge.environmental
 
-import com.github.chromaticforge.environmentchanger.config.EnvironmentChangerConfig
+import com.github.chromaticforge.environmental.config.EnvironmentalConfig
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 
 @Mod(
-    modid = EnvironmentChanger.MODID,
-    name = EnvironmentChanger.NAME,
-    version = EnvironmentChanger.VERSION,
+    modid = Environmental.MODID,
+    name = Environmental.NAME,
+    version = Environmental.VERSION,
     modLanguageAdapter = "cc.polyfrost.oneconfig.utils.KotlinLanguageAdapter"
 )
-object EnvironmentChanger {
+object Environmental {
     const val MODID: String = "@ID@"
     const val NAME: String = "@NAME@"
     const val VERSION: String = "@VER@"
 
     @Mod.EventHandler
     fun onFMLInitialization(event: FMLInitializationEvent) {
-        EnvironmentChangerConfig
+        EnvironmentalConfig
     }
 }

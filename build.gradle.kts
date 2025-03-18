@@ -166,8 +166,8 @@ tasks {
 
     modrinth {
         token.set(System.getenv("MODRINTH_TOKEN"))
-        projectId.set("environmentchanger")
-        versionType.set("release")
+        projectId.set("environment")
+        versionType.set("alpha")
         versionName.set(mod_version)
         versionNumber.set("v$mod_version")
         uploadFile.set(remapJar)
