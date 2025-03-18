@@ -4,6 +4,17 @@ Allows you to customize the time, weather, fog, clouds around you! Powered by On
 ### Usage
 `/environment` to open oneconfig gui.
 
+### Features
+- Hidable sun & moon
+- Customizable cloud color
+- Time changer
+- Time changer keybinds
+
+### Planned features
+- Customizable fog
+- Weather changer
+- IRL weather & time
+
 ---
 
-##### Code licensed under [LGPL](LICENSE)
+##### Code licensed under LGPL
