@@ -1,0 +1,14 @@
+[
+  {
+    "modid": "${id}",
+    "name": "${name}",
+    "description": "Allows you to customize the time, weather, fog, clouds around you! Powered by OneConfig.",
+    "version": "${version}",
+    "mcversion": "${mcVersionStr}",
+    "url": "https://modrinth.com/project/environmentchanger",
+    "logoFile": "environmentchanger.png",
+    "authorList": [
+      "chromaticforge", "femmeromantic"
+    ]
+  }
+]
